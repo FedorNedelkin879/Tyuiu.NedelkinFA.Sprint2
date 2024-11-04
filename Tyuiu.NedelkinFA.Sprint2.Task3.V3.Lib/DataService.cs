@@ -15,19 +15,19 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
             {
                 if (x == 0)
                 {
-                    y = (Math.Pow(x, 4) - Math.Cos(Math.Pow(x, 5)) + 3) / (Math.Pow(x, 2) - Math.Sin(Math.Pow(x, 2)) + 12);
+                    y = (Math.Pow(x, 5) - Math.Cos(Math.Pow(x, 6)) + 3) / (Math.Pow(x, 2) - Math.Sin(Math.Pow(x, 3)) + 12);
                 }
                 else
                 {
                     if (x > -7 && x < 0)
                     {
-                        y = Math.Pow(1 + Math.Sqrt(x + 3) / Math.Pow(x, 2), x);
+                        y = Math.Pow(1 + Math.Sqrt(x + 3) / Math.Pow(x, 3), x);
                     }
                     else
                     {
                         if (x <= -7)
                         {
-                            y = Math.Pow(x, 2) + 10 * x - (1 / x);
+                            y = Math.Pow(x, 3) + 10 * x - (1 / x);
                         }
                     }
                 }
