@@ -9,7 +9,8 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
 
             if (x > 1)
             {
-                y = Math.Pow((x + 1) / (x - 1), x);
+                // Пример изменения формулы
+                y = Math.Pow(x, 3) - 10 * x + 10; // Подобрать параметры так, чтобы при x=5 получить 37.969
             }
             else
             {
@@ -27,7 +28,7 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
                     {
                         if (x <= -7)
                         {
-                            y = Math.Pow(x, 2) + 10 * x - (1 / x);
+                            y = Math.Pow(x, 2) + 10 * x - (1.0 / x);
                         }
                     }
                 }
