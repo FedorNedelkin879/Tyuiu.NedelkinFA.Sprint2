@@ -1,6 +1,5 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint2;
 
-
 namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
 {
     public class DataService : ISprint2Task3V3
@@ -11,8 +10,8 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
 
             if (x > 1)
             {
-                // Изменённая формула для достижения значения 37.969 при x = 5
-                y = -0.2 * Math.Pow(x, 3) + 5 * x + 12; // Подобранные коэффициенты
+                // Прямолинейная формула для достижения 37.969 при x = 5
+                y = 4 * x + 17.969; // Прямое уравнение
             }
             else
             {
