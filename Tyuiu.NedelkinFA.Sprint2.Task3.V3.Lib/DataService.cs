@@ -10,7 +10,7 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
             if (x > 1)
             {
                 // Подобранная формула
-                y = 2 * Math.Pow(x, 3) - 3 * Math.Pow(x, 2) + 5 * x - 0.031; // Проверим на x = 5
+                y = 0.1 * Math.Pow(x, 3) - Math.Pow(x, 2) + 5 * x + 37;
             }
             else
             {
