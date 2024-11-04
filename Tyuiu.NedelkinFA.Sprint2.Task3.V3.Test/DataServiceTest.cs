@@ -9,9 +9,9 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Test
         public void ValidCondition1()
         {
             DataService ds = new DataService();
-            double x = 5;
+            double x = 1;
             double res = ds.Calculate(x);
-            double wait = 37.969;
+            double wait = 13;
             Assert.AreEqual(wait, res);
         }
         [TestMethod]
@@ -41,4 +41,5 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Test
             double wait = -2.333;
             Assert.AreEqual(wait, res);
         }
+    }
 }
