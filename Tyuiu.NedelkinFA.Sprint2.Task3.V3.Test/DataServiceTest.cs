@@ -9,9 +9,9 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Test
         public void ValidCondition1()
         {
             DataService ds = new DataService();
-            double x = 1;
+            double x = 5;
             double res = ds.Calculate(x);
-            double wait = 13;
+            double wait = 37.969;
             Assert.AreEqual(wait, res);
         }
         [TestMethod]
