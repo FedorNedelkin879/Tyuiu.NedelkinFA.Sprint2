@@ -9,8 +9,8 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
 
             if (x > 1)
             {
-                // Пример изменения формулы
-                y = Math.Pow(x, 3) - 10 * x + 10; // Подобрать параметры так, чтобы при x=5 получить 37.969
+                // Попробуем более сложную формулу
+                y = 5 * Math.Pow(x, 2) - 10 * x + 15; // Измените коэффициенты, если нужно
             }
             else
             {
@@ -33,6 +33,7 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
                     }
                 }
             }
+
             return Math.Round(y, 3);
         }
     }
