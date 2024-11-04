@@ -6,7 +6,7 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task4.V30.Lib
     {
         public double Calculate(double x, double y)
         {
-            double z = x > y ? (y / x + 3) : ((y - 1) / x + 2);
+            double z = (x * 2 > y) ? Math.Pow((6 + 4 / x), y) : (y + 2 / x);
             return Math.Round(z, 3);
         }
     }
