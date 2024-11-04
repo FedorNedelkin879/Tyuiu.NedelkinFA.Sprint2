@@ -27,7 +27,7 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
                     {
                         if (x <= -7)
                         {
-                            y = Math.Pow(x, 2) + 10 * x - 1 / x;
+                            y = Math.Pow(x, 2) + 10 * x - (1 / x);
                         }
                     }
                 }
