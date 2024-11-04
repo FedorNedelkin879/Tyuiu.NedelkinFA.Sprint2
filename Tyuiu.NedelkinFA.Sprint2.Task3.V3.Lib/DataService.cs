@@ -9,8 +9,9 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
 
             if (x > 1)
             {
-                // Формула для x > 1
-                y = Math.Pow((x + 1) / (x - 1), x);
+                // Попробуем вариант с изменением порядка действий для вычисления (x + 1) / (x - 1)
+                double fraction = (x + 1.0) / (x - 1.0);
+                y = Math.Pow(fraction, x);
             }
             else
             {
@@ -36,6 +37,7 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
                     }
                 }
             }
+
             return Math.Round(y, 3);
         }
     }
