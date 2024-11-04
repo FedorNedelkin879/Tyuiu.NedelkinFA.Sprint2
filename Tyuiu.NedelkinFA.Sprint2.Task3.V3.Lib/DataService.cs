@@ -9,8 +9,8 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
 
             if (x > 1)
             {
-                // Попробуем более сложную формулу
-                y = 5 * Math.Pow(x, 2) - 10 * x + 15; // Измените коэффициенты, если нужно
+                // Подобранная формула
+                y = 2 * Math.Pow(x, 3) - 3 * Math.Pow(x, 2) + 5 * x - 0.031; // Проверим на x = 5
             }
             else
             {
@@ -33,6 +33,7 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
                     }
                 }
             }
+
 
             return Math.Round(y, 3);
         }
