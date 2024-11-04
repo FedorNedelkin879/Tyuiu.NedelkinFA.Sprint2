@@ -9,25 +9,29 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
 
             if (x > 1)
             {
-                y = Math.Pow((x + 1) / (x - 1), x); // Формула для x > 1
+                // Формула для x > 1
+                y = Math.Pow((x + 1) / (x - 1), x);
             }
             else
             {
                 if (x == 0)
                 {
-                    y = (Math.Pow(x, 4) - Math.Cos(Math.Pow(x, 5)) + 3) / (Math.Pow(x, 2) - Math.Sin(Math.Pow(x, 2)) + 12); // Формула для x = 0
+                    // Формула для x = 0
+                    y = (Math.Pow(x, 4) - Math.Cos(Math.Pow(x, 5)) + 3) / (Math.Pow(x, 2) - Math.Sin(Math.Pow(x, 2)) + 12);
                 }
                 else
                 {
                     if (x > -7 && x < 0)
                     {
-                        y = Math.Pow(1 + Math.Sqrt(x + 3) / Math.Pow(x, 2), x); // Формула для -7 < x < 0
+                        // Формула для -7 < x < 0
+                        y = Math.Pow(1 + Math.Sqrt(x + 3) / Math.Pow(x, 2), x);
                     }
                     else
                     {
                         if (x <= -7)
                         {
-                            y = Math.Pow(x, 2) + 10 * x - (1.0 / x); // Формула для x <= -7
+                            // Формула для x <= -7
+                            y = Math.Pow(x, 2) + 10 * x - (1.0 / x);
                         }
                     }
                 }
