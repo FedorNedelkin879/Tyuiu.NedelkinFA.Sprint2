@@ -9,8 +9,7 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
 
             if (x > 1)
             {
-                // Подобранная формула
-                y = 0.1 * Math.Pow(x, 3) - Math.Pow(x, 2) + 5 * x + 37;
+                y = Math.Pow((x + 1) / (x - 1), x);
             }
             else
             {
@@ -28,13 +27,11 @@ namespace Tyuiu.NedelkinFA.Sprint2.Task3.V3.Lib
                     {
                         if (x <= -7)
                         {
-                            y = Math.Pow(x, 2) + 10 * x - (1.0 / x);
+                            y = Math.Pow(x, 2) + 10 * x - (1 / x);
                         }
                     }
                 }
             }
-
-
             return Math.Round(y, 3);
         }
     }
